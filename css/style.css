@@ -1,0 +1,93 @@
+.wraper {
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  position: relative;
+}
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.child2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  z-index: 2;
+}
+
+/* chat icon */
+.chat-image {
+  height: 100px;
+}
+.chat-icon {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+body {
+  /* 1-li gza */
+  /* padding-top: 76px; */
+}
+
+/* header styles */
+.ul-navigation {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+}
+.header-bg {
+  /* 1-li gza */
+  /* background-color: lightslategray;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between; */
+  /* 1-li gza */
+  /* position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50; */
+
+  /* 2 gza */
+  /* position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 50; */
+
+  /* 3 gza */
+  height: 76px;
+}
+
+/* 3 gza - div-ით */
+.header-block {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: lightgrey;
+  padding: 30px;
+  z-index: 50;
+}
+
+.title-image {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 30px;
+  color: red;
+}
+.image-wraper {
+  position: relative;
+  display: inline-block;
+}
